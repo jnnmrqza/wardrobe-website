@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: rgb(233, 113, 113);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    padding-top: 100px
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    border-radius: 20px;
+    width: 500px;
+    margin: 0px 10px;
+}
+.login-box header{
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(225, 225, 225);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.login-box form .inBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.login-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 193, 193);
+    outline: none;
+}
+.signup{
+    margin-top: 15px;
+    text-align: center;
+}
+.btn{
+   background-color: rgb(216, 98, 98);
+   border-radius: 10px;
+   color: white;
+   cursor: pointer;
+   margin-top: 15px;
+   padding: 5px 10px;
+   border: 1px solid rgb(209, 65, 89);
+}
+.btn:hover{
+    opacity: 0.90;
+}
+
+/* register styles */
+.login{
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*sign up login button*/
+.message{
+    font-size: 18px;
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wardrobe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <header>
+    <div class="header">
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" width="125px" height="50px" />
+          <h1 class="name">Wardrobe</h1>
+        </div>
+        <nav>
+          <ul id="menuItems">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured">Products</a></li>
+            <li><a href="#bottom">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <img
+          src="images/cart.png"
+          alt="cart-logo"
+          width="30px"
+          height="30px"
+        />
+        <img
+          class="menu-icon"
+          src="images/menu.png"
+          alt="cart-logo"
+          width="30px"
+          height="30px"
+          onclick="menutoggle()"
+        />
+      </div>
+    </div>
+  </header>
+  <body>
+    <section class="home" id="home">
+      <div class="row">
+        <div class="col-2">
+          <h1>
+            Give YourSelf <br />
+            A New Style!
+          </h1>
+          <p>
+            Discover the latest trends and timeless classics that define your style. At Wardrobe, we offer a curated collection of stunning dresses designed to make you feel confident and beautiful.
+          </p>
+          <hr>
+          <p>
+            Embrace elegance, embrace Wardrobe.
+          </p>
+          <a href="#featured" class="btn">Shop Now &#8594; </a>
+        </div>
+        <div class="col-2">
+          <img src="images/fashion2.png" />
+        </div>
+      </div>
+  </section>
+
+  <!-- ---------Products--------- -->
+  <section class="featured" id="featured">
+    <div>
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="https://ph.shp.ee/UkwBkiY" target="_blank">
+            <img src="images/product1.jpg" alt="" />
+          </a>
+          <h4>Black Evening Gown Fluffy Off-Shoulder</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://ph.shp.ee/vBSFphv" target="_blank">
+            <img src="images/product2.jpg" alt="" />
+         </a>
+          <h4>Casual Plain Black Ruched Dress</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://ph.shp.ee/vgJ9Nj3" target="_blank">
+            <img src="images/product3.jpg" alt="" />
+          </a>
+          <h4>Glamorous Plain Feather Dress</h4>
+        </div>
+
+         <div class="col-4">
+          <a href="https://ph.shp.ee/St9hMkp" target="_blank">
+            <img src="images/product4.jpg" alt="" />
+          </a>
+          <h4>Turtle Dress</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://ph.shp.ee/4fkMjKn" target="_blank">
+            <img src="images/product5.jpg" alt="" />
+          </a>
+          <h4>Infinity Tube Tops Croptop Halter</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://ph.shp.ee/gziDaXG" target="_blank">
+            <img src="images/product6.jpg" alt="" />
+          </a>
+          <h4>Scoop Neck Preppy Hanky Hem Tee Crop Top</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://ph.shp.ee/d9H6uNr" target="_blank">
+            <img src="images/product7.jpg" alt="" />
+          </a>
+          <h4>Casual Plain Button Front Crop Tank Top</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://ph.shp.ee/2GFNjzh" target="_blank">
+            <img src="images/product8.jpg" alt="" />
+          </a>
+          <h4>Harper Halter Boobsy Textured Croptop</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://ph.shp.ee/SJsWfts" target="_blank">
+            <img src="images/product9.jpg" alt="" />
+          </a>
+          <h4>Crop top Letter Graphic Cami top</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://ph.shp.ee/LzfwU4m" target="_blank">
+            <img src="images/product10.jpg" alt="" />
+          </a>
+          <h4>Off Shoulder Longsleeve Corset Crop Top</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://rb.gy/t2vipx" target="_blank">
+            <img src="images/product11-1.jpg" alt="" />
+          </a>
+          <h4>Vintage Brown Dress</h4>
+        </div>
+
+        <div class="col-4">
+          <a href="https://rb.gy/oi2zjn" target="_blank">
+            <img src="images/product12.jpg" alt="" />
+          </a>
+          <h4>Long Sleeve Polo Shirt</h4>
+        </div>
+       
+      </div>
+  </section>
+
+  <!-- Brands -->
+  <section class="bottom" id="bottom">
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container-foot">
+        <div class="row">
+          <div class="footer-col-2">
+            <img src="images/logo-white.png" alt="" />
+            <p>
+              Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright Noriel Atienza</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Js For Toggle menu -->
+  <script>
+    var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menuItems.style.maxHeight == "0px") {
+        menuItems.style.maxHeight = "200px";
+      } else {
+        menuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+  </body>
+</html>
